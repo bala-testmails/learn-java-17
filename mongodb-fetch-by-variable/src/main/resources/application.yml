@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      user: bala
+      password: bala
+      uri: mongodb://192.168.68.82:27017/anuscafe_test
+
+mongodb:
+  documentName: com.java.entity.Customer
