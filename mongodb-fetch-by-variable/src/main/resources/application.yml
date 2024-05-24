@@ -3,7 +3,10 @@ spring:
     mongodb:
       user: bala
       password: bala
-      uri: mongodb://192.168.68.82:27017/anuscafe_test
+      uri: mongodb://127.0.0.1:27017/notes_comments_dev2
 
 mongodb:
   documentName: com.java.entity.Customer
+  queries:
+    query: "{ 'name': '%s' }"
+    params-count: 1
