@@ -1,3 +1,5 @@
 rootProject.name = 'learn-java-17'
 include 'mongodb-fetch-by-variable'
+include 'java-test-files'
+include 'java-test-files'
 
